@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | Jellyfish</title>
+    <link rel="shortcut icon" href="../img/Agua-viva.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="Entre em contato com a Jellyfish para consultoria em T.I." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Mobile overlay/toggle -->
+    <div class="mobile-overlay" id="mobileOverlay" onclick="closeSidebar()"></div>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu" onclick="toggleSidebar()">
+        <span></span><span></span><span></span>
+    </button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <a href="index.html" class="sidebar-logo">
+            <div class="logo-icon">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="anelGradS" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f9d71c" />
+                            <stop offset="20%" stop-color="#ed7d31" />
+                            <stop offset="40%" stop-color="#f88dba" />
+                            <stop offset="60%" stop-color="#8259b9" />
+                            <stop offset="80%" stop-color="#00b0f0" />
+                            <stop offset="100%" stop-color="#2ecc71" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="38" fill="none" stroke="url(#anelGradS)" stroke-width="5" stroke-linecap="round" />
+                    <path d="M 30 52 C 30 25, 70 25, 70 52 C 70 56, 66 60, 62 60 C 58 60, 56 56, 50 56 C 44 56, 42 60, 38 60 C 34 60, 30 56, 30 52 Z" fill="#00b0f0" opacity="0.95" />
+                    <path d="M 38 40 C 42 32, 58 32, 62 40 C 58 36, 42 36, 38 40 Z" fill="#b3e6ff" opacity="0.5" />
+                    <g stroke="#00b0f0" fill="none" stroke-linecap="round">
+                        <path d="M 34 58 Q 28 72 32 86" stroke-width="2.5" opacity="0.9" />
+                        <path d="M 40 60 Q 36 74 40 88" stroke-width="1.8" opacity="0.7" />
+                        <path d="M 46 58 Q 44 70 48 84" stroke-width="2" opacity="0.8" />
+                        <path d="M 50 58 Q 50 74 50 90" stroke-width="2.8" opacity="0.95" />
+                        <path d="M 54 58 Q 56 70 52 84" stroke-width="2" opacity="0.8" />
+                        <path d="M 60 60 Q 64 74 60 88" stroke-width="1.8" opacity="0.7" />
+                        <path d="M 66 58 Q 72 72 68 86" stroke-width="2.5" opacity="0.9" />
+                    </g>
+                </svg>
+            </div>
+            <span>Jellyfish</span>
+        </a>
+        <nav class="sidebar-nav">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Início</a>
+            <a href="Serviços.html"><i class="fa-solid fa-list-check"></i> Serviços</a>
+            <a href="Sobre_nós.html"><i class="fa-solid fa-users"></i> Sobre Nós</a>
+            <a href="Contato.html" class="active"><i class="fa-solid fa-envelope"></i> Contato</a>
+        </nav>
+        <div class="sidebar-cta">
+            <a href="Contato.html" class="btn-sidebar">
+                <i class="fa-solid fa-paper-plane"></i> Fale Conosco
+            </a>
+        </div>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <section class="section" id="contato" style="padding-top: 100px;">
+            <span class="section-label">Contato</span>
+            <h2 class="section-title">Vamos conversar?</h2>
+            <p class="section-subtitle">Preencha o formulário e nossa equipe entrará em contato. Você também pode nos chamar diretamente pelo WhatsApp.</p>
+            <div class="contact-layout">
+                <div class="contact-left-panel">
+                    <h3>Fale com a gente</h3>
+                    <p style="color: var(--gray-400); font-size: 0.9rem;">Estamos prontos para entender suas necessidades e encontrar a melhor solução para sua empresa.</p>
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <span>contato@jellyfishconsultoria.com.br</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <span>(11) 91660-9951</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <span>São Paulo, SP - Brasil</span>
+                        </div>
+                    </div>
+                    <div class="contact-social-row">
+                        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right-panel" id="formPanel">
+                    <form id="contactForm" onsubmit="handleSubmit(event)">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="nome">Nome completo *</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+                            </div>
+                            <div class="form-field">
+                                <label for="email">E-mail corporativo *</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="telefone">Telefone / WhatsApp *</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required />
+                            </div>
+                            <div class="form-field">
+                                <label for="empresa">Nome da empresa</label>
+                                <input type="text" id="empresa" name="empresa" placeholder="Sua empresa" />
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="servico">Serviço de interesse</label>
+                            <select id="servico" name="servico">
+                                <option value="">Selecione uma opção</option>
+                                <option value="Suporte Técnico">Suporte Técnico</option>
+                                <option value="Cloud & Infraestrutura">Cloud & Infraestrutura</option>
+                                <option value="Cibersegurança">Cibersegurança</option>
+                                <option value="Gestão de T.I.">Gestão de T.I.</option>
+                                <option value="Redes Corporativas">Redes Corporativas</option>
+                                <option value="Consultoria Estratégica">Consultoria Estratégica</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" placeholder="Descreva brevemente sua necessidade..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit" id="submitBtn">
+                            <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                    <div class="form-success-msg" id="successMsg">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Mensagem enviada com sucesso!</p>
+                        <p style="font-weight: 400; font-size: 0.9rem; color: var(--gray-400);">Entraremos em contato em breve.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="anelGradF" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#f9d71c" />
+                                    <stop offset="20%" stop-color="#ed7d31" />
+                                    <stop offset="40%" stop-color="#f88dba" />
+                                    <stop offset="60%" stop-color="#8259b9" />
+                                    <stop offset="80%" stop-color="#00b0f0" />
+                                    <stop offset="100%" stop-color="#2ecc71" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="38" fill="none" stroke="url(#anelGradF)" stroke-width="5" stroke-linecap="round" />
+                            <path d="M 30 52 C 30 25, 70 25, 70 52 C 70 56, 66 60, 62 60 C 58 60, 56 56, 50 56 C 44 56, 42 60, 38 60 C 34 60, 30 56, 30 52 Z" fill="#00b0f0" opacity="0.95" />
+                            <path d="M 38 40 C 42 32, 58 32, 62 40 C 58 36, 42 36, 38 40 Z" fill="#b3e6ff" opacity="0.5" />
+                            <g stroke="#00b0f0" fill="none" stroke-linecap="round">
+                                <path d="M 34 58 Q 28 72 32 86" stroke-width="2.5" opacity="0.9" />
+                                <path d="M 40 60 Q 36 74 40 88" stroke-width="1.8" opacity="0.7" />
+                                <path d="M 46 58 Q 44 70 48 84" stroke-width="2" opacity="0.8" />
+                                <path d="M 50 58 Q 50 74 50 90" stroke-width="2.8" opacity="0.95" />
+                                <path d="M 54 58 Q 56 70 52 84" stroke-width="2" opacity="0.8" />
+                                <path d="M 60 60 Q 64 74 60 88" stroke-width="1.8" opacity="0.7" />
+                                <path d="M 66 58 Q 72 72 68 86" stroke-width="2.5" opacity="0.9" />
+                            </g>
+                        </svg>
+                    </div>
+                    <span>Jellyfish</span>
+                </div>
+                <div class="footer-links">
+                    <a href="../index.html">Início</a>
+                    <a href="Serviços.html">Serviços</a>
+                    <a href="Sobre_nós.html">Sobre Nós</a>
+                    <a href="Contato.html">Contato</a>
+                </div>
+                <div class="footer-social-icons">
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jellyfish Consultoria de T.I. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // Mobile toggle
+        const sidebar = document.getElementById('sidebar');
+        const mobileToggle = document.getElementById('mobileToggle');
+        const mobileOverlay = document.getElementById('mobileOverlay');
+        function toggleSidebar() {
+            sidebar.classList.toggle('open');
+            mobileToggle.classList.toggle('active');
+            mobileOverlay.classList.toggle('active');
+        }
+        function closeSidebar() {
+            sidebar.classList.remove('open');
+            mobileToggle.classList.remove('active');
+            mobileOverlay.classList.remove('active');
+        }
+        document.querySelectorAll('.sidebar-nav a, .sidebar-cta a').forEach(link => {
+            link.addEventListener('click', () => { if (window.innerWidth <= 860) closeSidebar(); });
+        });
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
+        const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) link.classList.add('active');
+            else link.classList.remove('active');
+        });
+
+        // Formulário de contato (mesmo do index)
+        function handleSubmit(event) {
+            event.preventDefault();
+            const form = document.getElementById('contactForm');
+            const successMsg = document.getElementById('successMsg');
+            const nome = document.getElementById('nome').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const telefone = document.getElementById('telefone').value.trim();
+            const empresa = document.getElementById('empresa').value.trim();
+            const servico = document.getElementById('servico').value;
+            const mensagem = document.getElementById('mensagem').value.trim();
+
+            const whatsappNumber = '5511999999999';
+            let whatsappMsg = `*Olá, Jellyfish!* 🐙%0A%0A`;
+            whatsappMsg += `*Nome:* ${encodeURIComponent(nome)}%0A`;
+            whatsappMsg += `*E-mail:* ${encodeURIComponent(email)}%0A`;
+            whatsappMsg += `*Telefone:* ${encodeURIComponent(telefone)}%0A`;
+            if (empresa) whatsappMsg += `*Empresa:* ${encodeURIComponent(empresa)}%0A`;
+            if (servico) whatsappMsg += `*Serviço de interesse:* ${encodeURIComponent(servico)}%0A`;
+            whatsappMsg += `*Mensagem:* ${encodeURIComponent(mensagem)}%0A%0A`;
+            whatsappMsg += `(Enviado pelo site)`;
+
+            form.style.display = 'none';
+            successMsg.style.display = 'block';
+            window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMsg}`, '_blank');
+
+            setTimeout(() => {
+                form.reset();
+                form.style.display = 'block';
+                successMsg.style.display = 'none';
+            }, 5000);
+            return false;
+        }
+    </script>
+</body>
+</html>

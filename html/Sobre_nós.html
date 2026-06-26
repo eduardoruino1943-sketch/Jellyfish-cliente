@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Nós | Jellyfish</title>
+    <link rel="shortcut icon" href="../img/Agua-viva.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="Conheça a história, missão, visão e valores da Jellyfish." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Mobile overlay/toggle -->
+    <div class="mobile-overlay" id="mobileOverlay" onclick="closeSidebar()"></div>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu" onclick="toggleSidebar()">
+        <span></span><span></span><span></span>
+    </button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <a href="index.html" class="sidebar-logo">
+            <div class="logo-icon">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="anelGradS" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f9d71c" />
+                            <stop offset="20%" stop-color="#ed7d31" />
+                            <stop offset="40%" stop-color="#f88dba" />
+                            <stop offset="60%" stop-color="#8259b9" />
+                            <stop offset="80%" stop-color="#00b0f0" />
+                            <stop offset="100%" stop-color="#2ecc71" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="38" fill="none" stroke="url(#anelGradS)" stroke-width="5" stroke-linecap="round" />
+                    <path d="M 30 52 C 30 25, 70 25, 70 52 C 70 56, 66 60, 62 60 C 58 60, 56 56, 50 56 C 44 56, 42 60, 38 60 C 34 60, 30 56, 30 52 Z" fill="#00b0f0" opacity="0.95" />
+                    <path d="M 38 40 C 42 32, 58 32, 62 40 C 58 36, 42 36, 38 40 Z" fill="#b3e6ff" opacity="0.5" />
+                    <g stroke="#00b0f0" fill="none" stroke-linecap="round">
+                        <path d="M 34 58 Q 28 72 32 86" stroke-width="2.5" opacity="0.9" />
+                        <path d="M 40 60 Q 36 74 40 88" stroke-width="1.8" opacity="0.7" />
+                        <path d="M 46 58 Q 44 70 48 84" stroke-width="2" opacity="0.8" />
+                        <path d="M 50 58 Q 50 74 50 90" stroke-width="2.8" opacity="0.95" />
+                        <path d="M 54 58 Q 56 70 52 84" stroke-width="2" opacity="0.8" />
+                        <path d="M 60 60 Q 64 74 60 88" stroke-width="1.8" opacity="0.7" />
+                        <path d="M 66 58 Q 72 72 68 86" stroke-width="2.5" opacity="0.9" />
+                    </g>
+                </svg>
+            </div>
+            <span>Jellyfish</span>
+        </a>
+        <nav class="sidebar-nav">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Início</a>
+            <a href="Serviços.html"><i class="fa-solid fa-list-check"></i> Serviços</a>
+            <a href="Sobre_nós.html" class="active"><i class="fa-solid fa-users"></i> Sobre Nós</a>
+            <a href="Contato.html"><i class="fa-solid fa-envelope"></i> Contato</a>
+        </nav>
+        <div class="sidebar-cta">
+            <a href="Contato.html" class="btn-sidebar">
+                <i class="fa-solid fa-paper-plane"></i> Fale Conosco
+            </a>
+        </div>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <section class="section" id="sobre" style="padding-top: 100px; background: rgba(39,60,105,0.2);">
+            <span class="section-label">Sobre Nós</span>
+            <h2 class="section-title">Conheça a Jellyfish</h2>
+            <p class="section-subtitle">Somos uma consultoria de T.I. focada em oferecer soluções inteligentes e acessíveis para micro e médias empresas.</p>
+            <div class="about-wrapper">
+                <div class="about-stack">
+                    <div class="about-card">
+                        <span class="card-num">01</span>
+                        <h4><span class="mini-dot mission"></span> Missão</h4>
+                        <p>Oferecer soluções de suporte T.I. de excelência, priorizando micro e médias empresas e contribuindo para o fortalecimento dos seus recursos tecnológicos.</p>
+                    </div>
+                    <div class="about-card">
+                        <span class="card-num">02</span>
+                        <h4><span class="mini-dot vision"></span> Visão</h4>
+                        <p>Ser referência em consultoria de T.I. para pequenas e médias empresas no Brasil, reconhecida pela qualidade, proximidade e resultados entregues.</p>
+                    </div>
+                    <div class="about-card">
+                        <span class="card-num">03</span>
+                        <h4><span class="mini-dot values"></span> Valores</h4>
+                        <p>Transparência, compromisso com o cliente, inovação constante, ética profissional e respeito às pessoas. Acreditamos que tecnologia de qualidade é para todos.</p>
+                    </div>
+                </div>
+                <div class="about-showcase">
+                    <div class="about-illustration">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="anelGradA" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#f9d71c" />
+                                    <stop offset="20%" stop-color="#ed7d31" />
+                                    <stop offset="40%" stop-color="#f88dba" />
+                                    <stop offset="60%" stop-color="#8259b9" />
+                                    <stop offset="80%" stop-color="#00b0f0" />
+                                    <stop offset="100%" stop-color="#2ecc71" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="38" fill="none" stroke="url(#anelGradA)" stroke-width="5" stroke-linecap="round" />
+                            <path d="M 30 52 C 30 25, 70 25, 70 52 C 70 56, 66 60, 62 60 C 58 60, 56 56, 50 56 C 44 56, 42 60, 38 60 C 34 60, 30 56, 30 52 Z" fill="#00b0f0" opacity="0.95" />
+                            <path d="M 38 40 C 42 32, 58 32, 62 40 C 58 36, 42 36, 38 40 Z" fill="#b3e6ff" opacity="0.5" />
+                            <g stroke="#00b0f0" fill="none" stroke-linecap="round">
+                                <path d="M 34 58 Q 28 72 32 86" stroke-width="2.5" opacity="0.9" />
+                                <path d="M 40 60 Q 36 74 40 88" stroke-width="1.8" opacity="0.7" />
+                                <path d="M 46 58 Q 44 70 48 84" stroke-width="2" opacity="0.8" />
+                                <path d="M 50 58 Q 50 74 50 90" stroke-width="2.8" opacity="0.95" />
+                                <path d="M 54 58 Q 56 70 52 84" stroke-width="2" opacity="0.8" />
+                                <path d="M 60 60 Q 64 74 60 88" stroke-width="1.8" opacity="0.7" />
+                                <path d="M 66 58 Q 72 72 68 86" stroke-width="2.5" opacity="0.9" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">+500</div>
+                            <div class="stat-label">Clientes Atendidos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Satisfação</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Suporte</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="anelGradF" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#f9d71c" />
+                                    <stop offset="20%" stop-color="#ed7d31" />
+                                    <stop offset="40%" stop-color="#f88dba" />
+                                    <stop offset="60%" stop-color="#8259b9" />
+                                    <stop offset="80%" stop-color="#00b0f0" />
+                                    <stop offset="100%" stop-color="#2ecc71" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="38" fill="none" stroke="url(#anelGradF)" stroke-width="5" stroke-linecap="round" />
+                            <path d="M 30 52 C 30 25, 70 25, 70 52 C 70 56, 66 60, 62 60 C 58 60, 56 56, 50 56 C 44 56, 42 60, 38 60 C 34 60, 30 56, 30 52 Z" fill="#00b0f0" opacity="0.95" />
+                            <path d="M 38 40 C 42 32, 58 32, 62 40 C 58 36, 42 36, 38 40 Z" fill="#b3e6ff" opacity="0.5" />
+                            <g stroke="#00b0f0" fill="none" stroke-linecap="round">
+                                <path d="M 34 58 Q 28 72 32 86" stroke-width="2.5" opacity="0.9" />
+                                <path d="M 40 60 Q 36 74 40 88" stroke-width="1.8" opacity="0.7" />
+                                <path d="M 46 58 Q 44 70 48 84" stroke-width="2" opacity="0.8" />
+                                <path d="M 50 58 Q 50 74 50 90" stroke-width="2.8" opacity="0.95" />
+                                <path d="M 54 58 Q 56 70 52 84" stroke-width="2" opacity="0.8" />
+                                <path d="M 60 60 Q 64 74 60 88" stroke-width="1.8" opacity="0.7" />
+                                <path d="M 66 58 Q 72 72 68 86" stroke-width="2.5" opacity="0.9" />
+                            </g>
+                        </svg>
+                    </div>
+                    <span>Jellyfish</span>
+                </div>
+                <div class="footer-links">
+                    <a href="../index.html">Início</a>
+                    <a href="Serviços.html">Serviços</a>
+                    <a href="Sobre_nós.html">Sobre Nós</a>
+                    <a href="Contato.html">Contato</a>
+                </div>
+                <div class="footer-social-icons">
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jellyfish Consultoria de T.I. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // Mobile toggle (mesmo código)
+        const sidebar = document.getElementById('sidebar');
+        const mobileToggle = document.getElementById('mobileToggle');
+        const mobileOverlay = document.getElementById('mobileOverlay');
+        function toggleSidebar() {
+            sidebar.classList.toggle('open');
+            mobileToggle.classList.toggle('active');
+            mobileOverlay.classList.toggle('active');
+        }
+        function closeSidebar() {
+            sidebar.classList.remove('open');
+            mobileToggle.classList.remove('active');
+            mobileOverlay.classList.remove('active');
+        }
+        document.querySelectorAll('.sidebar-nav a, .sidebar-cta a').forEach(link => {
+            link.addEventListener('click', () => { if (window.innerWidth <= 860) closeSidebar(); });
+        });
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
+        const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) link.classList.add('active');
+            else link.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
